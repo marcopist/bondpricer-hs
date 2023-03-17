@@ -1,1 +1,1 @@
-# bondpricer-hs
+# bondpricer
