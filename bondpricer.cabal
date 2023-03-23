@@ -5,9 +5,9 @@ version:             0.1.0.0
 homepage:            https://github.com/githubuser/bondpricer#readme
 license:             BSD3
 license-file:        LICENSE
-author:              Author name here
-maintainer:          example@example.com
-copyright:           2023 Author name here
+author:              Marco Pistilli
+maintainer:          pistilli.mrc@gmail.com
+copyright:           2023 Marco Pistilli
 category:            Web
 build-type:          Simple
 cabal-version:       >=1.10
@@ -19,6 +19,9 @@ executable bondpricer
   main-is:             Main.hs
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5
+                     , text
+                     , aeson
+                     , time  
   ghc-options:         -Wall
                        -Wcompat
                        -Widentities
